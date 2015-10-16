@@ -1,3 +1,15 @@
-run the command 'sqlite3 /tmp/flaskr.db < schema.sql' before run this application for create the db.
+Requirements:
+Falsk and Sqlite3 are required for running this application.
+$ sudo pip install Flask
+$ sudo apt-get install sqlite3
 
-Note: This application is refered from https://github.com/mitsuhiko/flask/tree/master/examples/flaskr.
+Step1: create the sqlite db
+    Run the command 'sqlite3 /tmp/flaskr.db < schema.sql' before run this application for create the db.
+Step2: Run the app 
+  dennis@ubuntu14:~/flaskr$ python flaskr.py 
+ * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+Step3: Test it
+    Browsing http://localhost:5000, or via IP. eg: http://192.168.237.128:5000
+    
+Note: This application is from http://flask.pocoo.org/docs/0.10/tutorial/.
