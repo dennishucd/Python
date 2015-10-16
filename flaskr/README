@@ -1,0 +1,3 @@
+run the command 'sqlite3 /tmp/flaskr.db < schema.sql' before run this application for create the db.
+
+Note: This application is refered from https://github.com/mitsuhiko/flask/tree/master/examples/flaskr.
